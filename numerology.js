@@ -1,4 +1,4 @@
-//reduce number to single digit, unless result is master number(11,22,33)
+//reduce number to single digit, unless result is master number(11,22,33,44)
 function reduceNumber(number){
     if (number==11 || number==22 || number==33 || number == 44){
         return number;
@@ -31,7 +31,6 @@ function birthday(date){
         reduceNumber(parsedDate[2])
     );
 }
-
 
 //Converts letters in string to number using Pythagorean rules
 function letterPy(string){
